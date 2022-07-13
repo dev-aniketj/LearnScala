@@ -13,6 +13,5 @@ object Variables2 {
     println(s"Hello \nWorld")
     println(raw"Hello \nWorld")
 
-
   }
 }

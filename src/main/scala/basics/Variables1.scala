@@ -6,7 +6,6 @@ object Variables1 {
     var b = 20
     val c = a + b
     print("Sum of a+b : " + c)
-
     a = 11
     b = 5
     print("Subtraction of a-b : " + (a - b))
