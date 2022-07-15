@@ -20,19 +20,19 @@ object match1 {
       case 5 => println("Thursday")
       case 6 => println("Friday")
       case 7 => println("Saturday")
+      case _ => println("Invalid input") //default case
     }
   }
 
-  private def way2(a: Int): String = {
-    a match {
-      case 1 => "Sunday"
-      case 2 => "Monday"
-      case 3 => "Tuesday"
-      case 4 => "Wednesday"
-      case 5 => "Thrusday"
-      case 6 => "Friday"
-      case 7 => "Saturday"
-    }
+  private def way2(a: Int): String = a match {
+    case 1 => "Sunday"
+    case 2 => "Monday"
+    case 3 => "Tuesday"
+    case 4 => "Wednesday"
+    case 5 => "Thursday"
+    case 6 => "Friday"
+    case 7 => "Saturday"
+    case _ => "Invalid input" //default case
   }
 
 }
