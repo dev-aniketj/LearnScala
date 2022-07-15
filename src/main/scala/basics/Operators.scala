@@ -74,7 +74,13 @@ object Operators {
   }
 
   def bitwise(): Unit = {
-    //    Bitwise (& (AND), | (OR), ^ (XOR))
+    //    Bitwise ( &(AND), |(OR), ~(Not), ^(XOR) )
+    val a = 7
+    val b = 3
 
+    println(a & b) // 11(3)
+    println(a | b) //111(7)
+    println(~a) //(8)
+    println(a ^ b) //100(4)
   }
 }
