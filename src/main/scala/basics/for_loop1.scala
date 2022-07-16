@@ -33,9 +33,9 @@ object for_loop1 {
     print(square)
     print("\nEnter the number : ")
     val num = scala.io.StdIn.readInt()
-    val table = for {j <- 1.to(10) if j <= num} yield {
+    val table = (for {j <- 1.to(10) if j <= num} yield {
       j * num
-    }
+    }).toList
     print(table)
 
 

@@ -35,8 +35,18 @@ object for_loop2 {
 
   def rhombus_pattern(n: Int): Unit = {
     for (i <- 1.until(n * 2); j <- 1.until(n * 2))
-      if (i <= n) {if (i + j > n && j - i < n) if (j - i == n - 1) println("* ") else print("* ") else if (j <= n) print("  ")}
-      else {if (i - j <= n - 1 && i + j < (n * 3)) if (i + j == (n * 3) - 1) println("* ") else print("* ") else if (j <= n) print("  ")}
+      if (i <= n) {
+        if (i + j > n && j - i < n)
+          if (j - i == n - 1) println("* ")
+          else print("* ")
+        else if (j <= n) print("  ")
+      }
+      else {
+        if (i - j <= n - 1 && i + j < (n * 3))
+          if (i + j == (n * 3) - 1) println("* ")
+          else print("* ")
+        else if (j <= n) print("  ")
+      }
   }
 
 }
