@@ -1,6 +1,6 @@
 package basics
 
-object functions {
+object functions1 {
   def main(args: Array[String]): Unit = {
     sentence()
     sum(3, 7)
