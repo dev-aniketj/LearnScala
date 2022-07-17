@@ -1,4 +1,4 @@
-package basics
+package functions
 
 object higher_order_functions1 {
   def main(args: Array[String]): Unit = {

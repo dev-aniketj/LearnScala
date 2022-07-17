@@ -1,4 +1,4 @@
-package basics
+package functions
 
 object functions3 {
   def main(args: Array[String]): Unit = {
@@ -11,5 +11,3 @@ object functions3 {
   def add(a: Int = 0, b: Int = 0, c: Int = 0, d: Int = 0, e: Int = 0): Int = a + b + c + d + e
 
 }
-
-

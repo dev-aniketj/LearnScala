@@ -1,4 +1,4 @@
-package basics
+package functions
 
 object functions4 {
   def main(args: Array[String]): Unit = {
