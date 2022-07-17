@@ -10,13 +10,13 @@ object closures1 {
    * So it is know as Impure Closure, because we can change the value of number.
    */
   var number = 10 // free variable
-  val add = (x: Int) => x + number
+  private val add = (x: Int) => x + number
 
   /**
    * So it is know as Pure Closure, because we can't change the value of num2.
    */
   val num2 = 2
-  val mul = (x: Int) => x * num2
+  private val mul = (x: Int) => x * num2
 
   def main(args: Array[String]): Unit = {
 
