@@ -16,7 +16,7 @@ object string2 {
     println("%d --- %.2f --- %s".format(num1, num2, str1))
 
     //    3rd way
-    println(s"$num1 --- ${num2} --- $str1")
+    println(f"$num1%d --- $num2%.2f --- $str1%s")
 
   }
 }
