@@ -1,4 +1,4 @@
-package sets
+package intermediate.sets
 
 /**
  * It is used to store unique elements and does not maintain any order for storing elements.

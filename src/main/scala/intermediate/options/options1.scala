@@ -1,4 +1,4 @@
-package options
+package intermediate.options
 
 object options1 {
 

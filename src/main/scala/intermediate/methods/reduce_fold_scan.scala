@@ -1,4 +1,4 @@
-package methods
+package intermediate.methods
 
 /**
  * Scala - reduce, fold, scan (left/right)

@@ -1,4 +1,4 @@
-package arrays
+package intermediate.arrays
 
 import scala.Array._
 

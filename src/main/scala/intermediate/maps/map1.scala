@@ -1,5 +1,4 @@
-package maps
-
+package intermediate.maps
 
 /**
  * Map is the collection of key,value pairs.

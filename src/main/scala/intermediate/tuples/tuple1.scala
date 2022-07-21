@@ -1,4 +1,4 @@
-package tuples
+package intermediate.tuples
 
 object tuple1 {
   val myTuple1 = (1, 2, "Hello", true)

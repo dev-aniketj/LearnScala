@@ -1,4 +1,4 @@
-package maps
+package intermediate.maps
 
 object map_and_filter {
 

@@ -1,4 +1,4 @@
-package string
+package intermediate.string
 
 /*
 In Scala, the Strings are Immutable.
