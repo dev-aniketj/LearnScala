@@ -7,11 +7,12 @@ object tuple1 {
 
   def main(args: Array[String]): Unit = {
     println(myTuple2)
+    println("------------------------------------------------")
+
     println(myTuple1._1) //1
     println(myTuple1._2) //2
     println(myTuple1._3) //Hello
     println(myTuple1._4) //true
-
     println("------------------------------------------------")
 
     myTuple3.productIterator.foreach { i =>
