@@ -29,8 +29,8 @@ object set1 {
     println(s1.isEmpty) //for checking the set is Empty or Not
 
 
-    val s3: Set[Int] = Set(1, 3, 5, 7)
-    val s4: Set[Int] = Set(2, 4, 6, 8)
+    val s3: Set[Int] = Set(1, 3, 5, 7, 9)
+    val s4: Set[Int] = Set(2, 4, 6, 9, 8)
 
     println(s3.union(s4))
     println(s3 ++ s4) // ++ is know as UNION
