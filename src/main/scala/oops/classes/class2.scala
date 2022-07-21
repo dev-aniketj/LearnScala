@@ -27,5 +27,9 @@ object class2 {
     println(stud3.getData())
     println(stud4.getData())
 
+    //    We can also change the value of student object by using setData() method.
+    stud1.setData("Aniket", 23, 95)
+    println(stud1.getData())
+
   }
 }
